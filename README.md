@@ -170,14 +170,16 @@ Emotion_Recognition/
 └── README.md
 ```
 ## 🔧 What I Did
-**Developed a complete Speech Emotion Recognition project using the RAVDESS dataset.
+
+Developed a complete Speech Emotion Recognition project using the RAVDESS dataset.
 Performed data exploration and visualization to understand the speech emotion classes.
 Extracted MFCC (Mel-Frequency Cepstral Coefficients) features from the audio files.
 Built and trained a CNN (Convolutional Neural Network) for emotion classification.
 Evaluated the trained model using accuracy, classification report, confusion matrix, and class-wise performance.
 Created visualization graphs for training accuracy, training loss, MFCCs, emotion distribution, and model evaluation.
 Developed a prediction system that takes a new .wav audio file and predicts the emotion with a confidence score.
-**---
+
+---
 ## 🤖 Machine Learning Models
 1. Convolutional Neural Network (CNN)
 Used as the main Deep Learning model for Speech Emotion Recognition.
