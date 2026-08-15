@@ -1,0 +1,8 @@
+SPEECH EMOTION RECOGNITION
+======================================================================
+Device: cpu
+Epoch 1/30 | Train Loss: 2.157497 | Train Acc: 0.137897 | Val Loss: 2.065691 | Val Acc: 0.162037 | LR: 0.00100000
+Epoch 2/30 | Train Loss: 2.063519 | Train Acc: 0.151786 | Val Loss: 1.977718 | Val Acc: 0.245370 | LR: 0.00100000
+Epoch 3/30 | Train Loss: 1.975679 | Train Acc: 0.219246 | Val Loss: 1.887191 | Val Acc: 0.314815 | LR: 0.00100000
+Epoch 4/30 | Train Loss: 1.923267 | Train Acc: 0.228175 | Val Loss: 1.823724 | Val Acc: 0.351852 | LR: 0.00100000
+Epoch 5/30 | Train Loss: 1.885341 | Train Acc: 0.244048 | Val Loss: 1.803404 | Val Acc: 0.328704 | LR: 0.00100000
