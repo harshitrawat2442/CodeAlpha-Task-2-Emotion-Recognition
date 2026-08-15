@@ -169,16 +169,15 @@ Emotion_Recognition/
 │
 └── README.md
 ```
----
 ## 🔧 What I Did
-Developed a complete Speech Emotion Recognition project using the RAVDESS dataset.
+**Developed a complete Speech Emotion Recognition project using the RAVDESS dataset.
 Performed data exploration and visualization to understand the speech emotion classes.
 Extracted MFCC (Mel-Frequency Cepstral Coefficients) features from the audio files.
 Built and trained a CNN (Convolutional Neural Network) for emotion classification.
 Evaluated the trained model using accuracy, classification report, confusion matrix, and class-wise performance.
 Created visualization graphs for training accuracy, training loss, MFCCs, emotion distribution, and model evaluation.
 Developed a prediction system that takes a new .wav audio file and predicts the emotion with a confidence score.
----
+**---
 ## 🤖 Machine Learning Models
 1. Convolutional Neural Network (CNN)
 Used as the main Deep Learning model for Speech Emotion Recognition.
@@ -189,14 +188,14 @@ The final fully connected layers classify the audio into the supported emotion c
 The trained model is saved as emotion_model.pth and emotion_model.keras.
 ---
 ## 📊 Model Evaluation
-Evaluated the trained CNN model on the test dataset to measure its classification performance.
+**Evaluated the trained CNN model on the test dataset to measure its classification performance.
 Calculated accuracy to determine the overall percentage of correctly classified emotions.
 Generated a classification report containing precision, recall, F1-score, and support for each emotion class.
 Created a confusion matrix to analyze correct predictions and misclassifications between emotion categories.
 Generated class-wise accuracy to compare the model's performance across different emotions.
 Visualized training accuracy and training loss to analyze the model's learning performance.
 Saved the evaluation results and graphs in the outputs/ folder for further analysis.
----
+**---
 ## 📈 Result
 Successfully developed a Speech Emotion Recognition system using the RAVDESS dataset.
 The trained CNN model successfully learns patterns from MFCC speech features for emotion classification.
