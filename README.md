@@ -188,14 +188,16 @@ The final fully connected layers classify the audio into the supported emotion c
 The trained model is saved as emotion_model.pth and emotion_model.keras.
 ---
 ## 📊 Model Evaluation
-**Evaluated the trained CNN model on the test dataset to measure its classification performance.
+**
+Evaluated the trained CNN model on the test dataset to measure its classification performance.
 Calculated accuracy to determine the overall percentage of correctly classified emotions.
 Generated a classification report containing precision, recall, F1-score, and support for each emotion class.
 Created a confusion matrix to analyze correct predictions and misclassifications between emotion categories.
 Generated class-wise accuracy to compare the model's performance across different emotions.
 Visualized training accuracy and training loss to analyze the model's learning performance.
 Saved the evaluation results and graphs in the outputs/ folder for further analysis.
-**---
+**
+---
 ## 📈 Result
 Successfully developed a Speech Emotion Recognition system using the RAVDESS dataset.
 The trained CNN model successfully learns patterns from MFCC speech features for emotion classification.
