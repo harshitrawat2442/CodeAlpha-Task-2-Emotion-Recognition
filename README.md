@@ -169,43 +169,59 @@ Emotion_Recognition/
 │
 └── README.md
 ```
+---
 ## 🔧 What I Did
 
-Developed a complete Speech Emotion Recognition project using the RAVDESS dataset.
-Performed data exploration and visualization to understand the speech emotion classes.
-Extracted MFCC (Mel-Frequency Cepstral Coefficients) features from the audio files.
-Built and trained a CNN (Convolutional Neural Network) for emotion classification.
-Evaluated the trained model using accuracy, classification report, confusion matrix, and class-wise performance.
-Created visualization graphs for training accuracy, training loss, MFCCs, emotion distribution, and model evaluation.
-Developed a prediction system that takes a new .wav audio file and predicts the emotion with a confidence score.
+- Developed a complete **Speech Emotion Recognition** system using the RAVDESS dataset.
+- Performed **audio data exploration and visualization** to understand different emotion classes.
+- Extracted **MFCC (Mel-Frequency Cepstral Coefficients)** features from speech audio using Librosa.
+- Prepared and processed the extracted features for **CNN-based classification**.
+- Trained the model using separate **training, validation, and testing datasets**.
+- Evaluated the model using **accuracy, loss, confusion matrix, and classification report**.
+- Developed a **prediction pipeline** for recognizing emotions from new `.wav` audio files.
 
 ---
+
 ## 🤖 Machine Learning Models
-1. Convolutional Neural Network (CNN)
-Used as the main Deep Learning model for Speech Emotion Recognition.
-Takes extracted MFCC features as input.
-Uses convolution, batch normalization, ReLU activation, pooling, and dropout layers.
-Learns important patterns from speech features for emotion classification.
-The final fully connected layers classify the audio into the supported emotion classes.
-The trained model is saved as emotion_model.pth and emotion_model.keras.
+
+### Convolutional Neural Network (CNN)
+
+- Used **CNN as the primary Deep Learning model** for speech emotion classification.
+- MFCC features are provided as input to the CNN model.
+- The architecture includes **Convolution, Batch Normalization, ReLU, Max Pooling, Dropout, and Fully Connected layers**.
+- The model learns important speech patterns associated with different emotions.
+- The final output layer classifies audio into **8 emotion classes**:
+  - Angry
+  - Calm
+  - Disgust
+  - Fearful
+  - Happy
+  - Neutral
+  - Sad
+  - Surprised
+- The trained model is saved in the `models/` directory.
+
 ---
+
 ## 📊 Model Evaluation
 
-Evaluated the trained CNN model on the test dataset to measure its classification performance.
-Calculated accuracy to determine the overall percentage of correctly classified emotions.
-Generated a classification report containing precision, recall, F1-score, and support for each emotion class.
-Created a confusion matrix to analyze correct predictions and misclassifications between emotion categories.
-Generated class-wise accuracy to compare the model's performance across different emotions.
-Visualized training accuracy and training loss to analyze the model's learning performance.
-Saved the evaluation results and graphs in the outputs/ folder for further analysis.
+- Evaluated the trained CNN model using a separate **test dataset**.
+- Monitored **training and validation accuracy** during model training.
+- Analyzed **training and validation loss** to monitor the learning process.
+- Generated a **Confusion Matrix** to analyze correct and incorrect predictions.
+- Generated a **Classification Report** containing Precision, Recall, F1-Score, and Support.
+- Calculated **class-wise performance** for individual emotion categories.
+- Saved evaluation graphs and results in the **`outputs/`** directory.
 
 ---
 
 ## 📈 Result
-Successfully developed a Speech Emotion Recognition system using the RAVDESS dataset.
-The trained CNN model successfully learns patterns from MFCC speech features for emotion classification.
-Generated training accuracy and loss graphs to visualize the model's learning process.
-Generated a confusion matrix and classification report to analyze model performance.
-Created class-wise accuracy results to compare performance across different emotion categories.
-Successfully implemented a prediction system that can classify the emotion of a new .wav audio file.
-All important trained models, graphs, reports, and feature outputs are saved in the models/ and outputs/ folders.
+
+- Successfully developed an end-to-end **Speech Emotion Recognition system**.
+- The CNN model successfully learned patterns from **MFCC speech features**.
+- The system can classify speech into **8 different emotion categories**.
+- Generated **training accuracy and loss graphs** to analyze model learning.
+- Generated **Confusion Matrix and Classification Report** for detailed evaluation.
+- Analyzed the model's performance across different emotion classes.
+- Implemented a working **prediction pipeline** for new `.wav` audio files.
+- Successfully saved the trained model and evaluation outputs for future predictions.
